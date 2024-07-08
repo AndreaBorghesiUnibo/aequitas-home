@@ -30,15 +30,40 @@ the field was trying to achieve
 We are transitioning from an industrial society to an "Artificial Intelligence
 society", driven by two key forces: stratification and association, representing
 vertical and horizontal movements. Existing social divisions and inequalities
-persist, but new forms of ordinality and nominality are emerging as social
-structures, economic relations, and computational systems intersect.
-Understanding these contextualized features of AI is crucial to avoid the
-*abstraction error* often made in computer science, which overlooks social
-context.
+persist, but new forms are emerging as social structures, economic relations,
+and computational systems intersect.  Understanding these contextualized
+features of AI is crucial to avoid the *abstraction error* often made in
+computer science, which overlooks social context.
 
 * A very relevant notion is that of **situated knowledge** underlying knowledge
   production and the power relations among relevant stakeholders.
 * Revealing ML’s social world is key to
+
+Fairness Social Perspective
+---------------------------
+
+**Distributive fairness** refers to the fairness of the *outcomes (aims)* of
+decision making, while **procedural fairness** refers to the fairness of the
+*decision-making processes (means)* that lead to the outcomes. 
+
+Technology is result of a process of social construction with the contribution
+of a variety of stakeholders.
+
+::
+
+    Is fairness distributive or procedural? Should it be a socially constructed
+    notion?
+
+* **Disparate impact** happens when members of a marginalized class are
+  negatively affected more than others when using a formally neutral policy or
+  rule. 
+    * It is unintentional or indirect discrimination. 
+* **Disparate treatment** refers to the situation where an individual is
+  intentionally treated differently based on their membership of a marginalized
+  class.
+* Neither disparate impact nor disparate treatment aim exclusively at
+  distributive fairness
+    * More sophisticated notions are required → procedural fairness.
 
 Technical Lens
 ==============
